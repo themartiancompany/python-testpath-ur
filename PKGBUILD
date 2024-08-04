@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: Kyle Keen <keenerd@gmail.com>
 # Contributor: Philipp A. <flying-sheep@web.de>
 _name=testpath
@@ -35,3 +39,4 @@ package() {
 
   install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
 }
+
